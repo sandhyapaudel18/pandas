@@ -8,7 +8,7 @@ employee={
 }
 df=pd.DataFrame(employee)
 #deleting data columns df.drop(col=["name"],inplace=True) modify original dataset by inplace=true
-df.drop(columns=["salary"],inplace=True)
+df.drop(columns=["salary","age"],inplace=True)
 
 #dropping multiple columns
 print(df)
