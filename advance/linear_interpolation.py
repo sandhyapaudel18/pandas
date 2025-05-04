@@ -1,6 +1,8 @@
 #linear interpolation
 #timings ko bare ma use garne interpolation
 #also with numerical things
+#avoid dropping rows instead use interpolation
+#only with numerical not with names or alphabtes value
 import pandas as pd
 data={
     "time":[1,2,4,6,5],
