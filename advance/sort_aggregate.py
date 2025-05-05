@@ -16,4 +16,6 @@ df.sort_values(by="time",ascending=True,inplace=True)
 df["value"]=df["value"].interpolate(method="linear")
 print(df)
 
+
+
 #record of vk from last 5 years lets go
