@@ -11,7 +11,9 @@ df=pd.DataFrame(data)
 #asc=true and desc= false
 df.sort_values(by="time",ascending=True,inplace=True)
 #lets also sort the value column
-df.sort_values(by="value",ascending=True)
+# df.sort_values(by="value",ascending=True)
 #lets interpolate the value by placing the means
-# df["value"]=df["value"].interpolate(method="linear")
+df["value"]=df["value"].interpolate(method="linear")
 print(df)
+
+#record of vk
