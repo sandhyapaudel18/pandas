@@ -9,4 +9,3 @@ df=pd.DataFrame(data)
 
 # df["value"]=df["value"].interpolate(method="linear")
 df.sort_values(by=["time","value"],ascending=[True,False],inplace=True)
-print(df)
